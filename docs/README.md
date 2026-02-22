@@ -1,4 +1,4 @@
-*this file also available in CN-TRAD. and CN-SIMP.*
+*this file also available in JP,CN-TRAD. and CN-SIMP.*
 # 1 WELCOME-TO-"[cmd-customization-gen](https://github.com/jaydensc-tsk/cmd-customization-gen)"-repository
 ## 1.1 what this for
 this is a repo for a tools that let gen a script you start a cmd with custom title bar,custom prompt and print a string of text (customable) when it start
