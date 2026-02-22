@@ -81,13 +81,14 @@ int main()
 				std::cout << "$n    =    (Current drive)\n";
 				std::cout << "$p    =    (Current drive and path)\n";
 				std::cout << "$v    =    (Windows version number)\n";
+                std::cout << "$s    =    (space)";
 				std::cout << "input prompt: ";
 				std::cin >> prompt;
                 goto genmenu;
             }
             else if (options2[0] == '4')
             {
-				std::cout << "input startup print string, use [^^!] to disp. exec mark: ";
+				std::cout << "input startup print string, use [^^!] to disp. exec mark,use [^(^)] to disp [()]: ";
 				std::cin >> startup_print_string;
                 goto genmenu;
             }
@@ -104,7 +105,8 @@ int main()
                 std::cout << "@echo off\n";
 				std::cout << "title " << title << "\n";
 				std::cout << startup_exec_command << "\n";
-				std::cout << "cmd / k prompt" << prompt << "color" << color << "\n";
+				std::cout << "echo (" << startup_print_string << ")\n";
+				std::cout << "cmd /k prompt" << prompt << " && " << "color" << color << "\n";
 				std::cout << "1. back to main menu,2. exit[1,2]:";
 				std::cin >> options3;
 				if (options3[0] == '1')
