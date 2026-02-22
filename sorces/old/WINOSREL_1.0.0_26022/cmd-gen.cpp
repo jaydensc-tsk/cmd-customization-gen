@@ -104,7 +104,7 @@ int main()
                 std::cout << "@echo off\n";
 				std::cout << "title " << title << "\n";
 				std::cout << startup_exec_command << "\n";
-				std::cout << "cmd / k prompt" << prompt << "color" << color << "\n";
+				std::cout << "cmd / k prompt" << prompt << "\n";
 				std::cout << "1. back to main menu,2. exit[1,2]:";
 				std::cin >> options3;
 				if (options3[0] == '1')
