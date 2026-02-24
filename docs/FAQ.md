@@ -4,11 +4,11 @@ A:it's not our fault,you can fix in by doing the step below
 
 1.
 
-[![1.click the place that circled](/assets/windef_err_sol_pic2.png)
+![1.click the place that circled](/assets/windef_err_sol_pic2.png)
 
 2.
 
-[![2.click the place that circled](/assets/windef_err_sol_pic3.png)
+![2.click the place that circled](/assets/windef_err_sol_pic3.png)
 
 sometime it ll' do a fast scan to the file,in normal,it ll' let u run the tool after doing ths step
 
