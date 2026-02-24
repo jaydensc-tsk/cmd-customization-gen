@@ -33,6 +33,5 @@ it's not our fault,you can fix in by doing the step below
 
 sometime it ll' do a fast scan to the file,in normal,it ll' let u run the tool after doing ths step
 ## script generate not properly
-1. check your tool's version ,if its the newest version, open a new issue,because sometime i can miss a space of else
-
-2.if it not the he newest version,try update it,this may fix the issue
+1. check your tool's version ,if its the newest version, open a new issue,because sometime i can miss a space or something else
+2.if it not the newest version,try update it,this may fix the issue
