@@ -106,8 +106,8 @@ int main()
 				std::cout << "title " << title << "\n";
 				std::cout << startup_exec_command << "\n";
 				std::cout << "echo (" << startup_print_string << ")\n";
-				std::cout << "cmd /k prompt" << prompt << " && " << "color" << color << "\n";
-				std::cout << "1. back to main menu,2. exit[1,2]:";
+				std::cout << "cmd /k prompt " << prompt << " && " << "color " << color << "\n";
+                donemenu:std::cout << "1. back to main menu,2. exit[1,2]:";
 				std::cin >> options3;
 				if (options3[0] == '1')
 				{
@@ -120,7 +120,7 @@ int main()
 				else
 				{
 					std::cerr << "Invalid option. Please try again.\n";
-					goto genmenu; // Jump back to the genmenu label to display the genmenu again
+					goto donemenu; // Jump back to the donemenu label to display the donemenu again
 				}
 			}
             else if (options2[0] == '7')
