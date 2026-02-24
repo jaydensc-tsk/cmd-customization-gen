@@ -18,4 +18,4 @@ A:you need to copy it to a text file, then rename it to [FILENAME].bat,the [FILE
 
 Q:how can I know it's a offical release
 
-A: you can do a gpg sign verify ,please refer to [this document](docs/how-to-use.md#verify-file)
+A: you can do a gpg sign verify ,please refer to [this document](how-to-use.md#verify-file)
