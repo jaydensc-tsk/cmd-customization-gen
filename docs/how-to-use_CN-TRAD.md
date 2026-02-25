@@ -24,19 +24,13 @@ gpg --verify cmd-gen_[版本號碼].exe.sig
 
 ```CMD
 
-gpg：假設「cmd-gen_1.0.1_26023.exe」中的資料已簽名
-
-gpg：簽名時間：2026年2月22日星期日 15:33:31 HKT
-
-gpg：使用 RSA 金鑰 2B440DB0DB471D46E859C0C6162FD5566BCC32D1
-
-gpg：來自「kungjaydensc-tsk <kungjayden0331@gmail.com>」的有效簽名[未知]
-
-gpg：警告：此金鑰未通過可信任簽章認證！
-
-gpg：沒有跡象顯示該簽章屬於金鑰擁有者。
-
-主金鑰指紋：2B44 0DB0 DB47 1D46 E859 C0C6 162F D556 6BCC 32D1
+gpg: assuming signed data in 'cmd-gen_1.0.1_26023.exe'
+gpg: Signature made Sun Feb 22 15:33:31 2026 HKT
+gpg:                using RSA key 2B440DB0DB471D46E859C0C6162FD5566BCC32D1
+gpg: Good signature from "kungjaydensc-tsk <kungjayden0331@gmail.com>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 2B44 0DB0 DB47 1D46 E859  C0C6 162F D556 6BCC 32D1
 
 ```
 
