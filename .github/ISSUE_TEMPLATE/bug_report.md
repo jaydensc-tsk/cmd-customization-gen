@@ -28,4 +28,5 @@ If applicable, add screenshots to help explain your problem.
  - Version [e.g. WINOSREL_1.0.0_26022]
 
 **Additional context**
-Add any other context about the problem here.
+
+*Add any other context about the problem here.*
