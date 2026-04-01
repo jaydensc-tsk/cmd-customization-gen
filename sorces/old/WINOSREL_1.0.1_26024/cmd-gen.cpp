@@ -3,7 +3,7 @@
 
 #include "pch.h"
 #include <iostream>
-#include "info.h" //this is info header file, you can edit the content in it, but please don't change the variable name and the format of the content
+#include "info.h"
 
 int main()
 {
@@ -105,20 +105,15 @@ int main()
                 std::cout << "@echo off\n";
 				std::cout << "title " << title << "\n";
 				std::cout << startup_exec_command << "\n";
-
 				std::cout << "echo (" << startup_print_string << ")\n";
 				std::cout << "cmd /k prompt " << prompt << " && " << "color " << color << "\n";
-                donemenu:std::cout << "1. back to main menu,2. back to genrate menu,3.exit[1,2,3]:";
+                donemenu:std::cout << "1. back to main menu,2. exit[1,2]:";
 				std::cin >> options3;
 				if (options3[0] == '1')
 				{
 					goto menu; // Jump back to the menu label to display the menu again
 				}
-                else if (options3[0] == '2')
-                {
-                    goto genmenu; // Jump back to the genmenu label to display the genmenu again
-                }
-				else if (options3[0] == '3')
+				else if (options3[0] == '2')
 				{
 					return 0; // Exit the program
 				}
