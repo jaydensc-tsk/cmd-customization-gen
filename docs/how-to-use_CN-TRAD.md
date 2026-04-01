@@ -66,9 +66,6 @@ Primary key fingerprint: 2B44 0DB0 DB47 1D46 E859  C0C6 162F D556 6BCC 32D1
 
 除了我們剛才提到的主選單之外，還有兩個選單：「產生選單」和「完成選單」。
 
-![pic](assets/genmenu.png)
-![assets](assets/donemenu.png)
-
 我們將解釋生成選單中的一些選項。
 
 ### 選項 3 提示

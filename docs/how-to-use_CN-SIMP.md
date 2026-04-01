@@ -64,9 +64,6 @@ Primary key fingerprint: 2B44 0DB0 DB47 1D46 E859  C0C6 162F D556 6BCC 32D1
 
 除了我们刚才提到的主菜单之外，还有两个菜单：“生成菜单”和“完成菜单”。
 
-![pic](assets/genmenu.png)
-![assets](assets/donemenu.png)
-
 我们将解释生成菜单中的一些选项。
 
 ### 选项 3 提示
