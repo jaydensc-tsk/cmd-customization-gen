@@ -41,8 +41,8 @@ but we'll explain it futher in the next session
 pro tips: dont forgot to enter the option 6 ("generate") to view &copy the script!
 ## options & menus
 exept the main menu we jst mentioned,there still have 2 menu:"generate menu(gen menu)" and done menu.
-![pic](assets/gene_menu)
-![assets])(assets/donemenu)
+![pic](assets/gene_menu.png)
+![assets])(assets/donemenu.png)
 we're going to explain some options in gen menu there
 
 ### option3-prompt

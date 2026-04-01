@@ -41,8 +41,8 @@ Primary key fingerprint: 2B44 0DB0 DB47 1D46 E859  C0C6 162F D556 6BCC 32D1
 プロのヒント：スクリプトを表示・コピーするには、オプション6（「生成」）を入力するのを忘れないでください！
 ## オプションとメニュー
 先ほど説明したメインメニューの他に、「生成メニュー（生成メニュー）」と「完了メニュー」の2つのメニューがあります。
-![pic](assets/gene_menu)
-![assets])(assets/donemenu)
+![pic](assets/gene_menu.png)
+![assets])(assets/donemenu.png)
 genメニューのオプションをいくつか説明します。
 
 ### オプション3 prompt
