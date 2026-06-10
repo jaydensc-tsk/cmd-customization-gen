@@ -5,7 +5,7 @@ Welcome to the document,before we start,let do some perparation first.
 ## get-the-tool
 you can get the tool by download it form the /release or from the releases page
 ## verify-file
-for verify if the file offcial,do the gpg command below after inport the public key[download the key here](/asset/key.asc):
+for verify if the file offcial,do the gpg command below after inport the public key[download the key here](/assets/key.asc):
 ```CMD copy
 gpg --verify cmd-gen_[version number(no longer reqired from v2.0)].exe.sig
 ```
