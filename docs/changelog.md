@@ -14,3 +14,12 @@ fixed some bugs
 *change*
 
 docs attached and fixed some bugs
+# WINOSREL_1.1.0_26401
+*change*
+added shortcut back to genmenu at the done menu.Also fixed the documents
+#WINOSREL_2.0.0_26601
+*change*
+
+-Fixed some bug
+-made some change to the UI
+-updated documents

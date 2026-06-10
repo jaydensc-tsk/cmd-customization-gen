@@ -12,11 +12,11 @@
 
 ## 验证文件
 
-要验证文件是否为官方版本，请执行以下 gpg 命令：
+要验证文件是否为官方版本，請在導入公钥後[點此下載](assets/key.asc)执行以下 gpg 命令：
 
 ```CMD copy
 
-gpg --verify cmd-gen_[版本号].exe.sig
+gpg --verify cmd-gen_[版本号2.0版後不再須要].exe.sig
 
 ```
 您将看到类似以下内容：

@@ -18,8 +18,6 @@ int main()
         
 
     menu:
-		system("cls"); // Clear the console screen
-		std::cout << "+===================+\n" << project_name "\n" version "\n+===================+\n";
         std::cout << "choise a option\n";
         std::cout << "1. gen script\n";
         std::cout << "2. about\n";
@@ -30,12 +28,11 @@ int main()
         {
             char options2[500];
         genmenu:
-			system("cls"); // Clear the console screen
-            std::cout << "1. title(current:" << title << ")\n";
-			std::cout << "2. color(current:" << color << ")\n";
-            std::cout << "3. prompt(current:" << prompt << ")\n";
-            std::cout << "4. startup print string(current:" << startup_print_string << ")\n";
-            std::cout << "5. startup execute command(current:" << startup_exec_command << ")\n";
+            std::cout << "1. title\n";
+            std::cout << "2. color\n";
+            std::cout << "3. prompt\n";
+            std::cout << "4. startup print string\n";
+            std::cout << "5. stautup execute command\n";
 			std::cout << "6. generate\n";
             std::cout << "7. back to menu\n";
             std::cout << "0. exit\n";
@@ -44,7 +41,6 @@ int main()
             std::cin >> options2;
             if (options2[0] == '1')
             {
-                system("cls"); // Clear the console screen
                 std::cout << "input title: ";
                 std::cin >> title;
 				std::cout << "your title is : " << title << "\n";
@@ -52,8 +48,7 @@ int main()
             }
             else if (options2[0] == '2')
             {
-                system("cls"); // Clear the console screen
-                std::cout << "color code format : [background color][text color]\n";
+				std::cout << "color code format : [background color][text color]\n";
                 std::cout << "supported color code\n";
 				std::cout << "0 = Black\n";
 				std::cout << "1 = Blue\n";
@@ -78,8 +73,7 @@ int main()
             }
             else if (options2[0] == '3')
             {
-                system("cls"); // Clear the console screen
-                std::cout << "supported placeholder(part)\n";
+				std::cout << "supported placeholder(part)\n";
                 std::cout << "for more placeholder please refer to https://learn.microsoft.com/zh-tw/windows-server/administration/windows-commands/prompt \n";
                 std::cout << "$$    =    $(dollar sign)\n";
 				std::cout << "$g    =    >\n";
@@ -87,38 +81,33 @@ int main()
 				std::cout << "$n    =    (Current drive)\n";
 				std::cout << "$p    =    (Current drive and path)\n";
 				std::cout << "$v    =    (Windows version number)\n";
-                std::cout << "$s    =    (space)\n";
+                std::cout << "$s    =    (space)";
 				std::cout << "input prompt: ";
 				std::cin >> prompt;
                 goto genmenu;
             }
             else if (options2[0] == '4')
             {
-                system("cls"); // Clear the console screen
-                std::cout << "input startup print string, use [^^!] to disp. exec mark,use [^(^)] to disp [()]: ";
+				std::cout << "input startup print string, use [^^!] to disp. exec mark,use [^(^)] to disp [()]: ";
 				std::cin >> startup_print_string;
                 goto genmenu;
             }
             else if (options2[0] == '5')
             {
-                system("cls"); // Clear the console screen
-                std::cout << "input startup execute command: ";
+				std::cout << "input startup execute command: ";
 				std::cin >> startup_exec_command;
                 goto genmenu;
             }
 			else if (options2[0] == '6')
 			{
-				system("cls"); // Clear the console screen
-                char options3[50];
+				char options3[50];
                 std::cout << usage "\n";
-                std::cout << "+===================+\n";
                 std::cout << "@echo off\n";
 				std::cout << "title " << title << "\n";
 				std::cout << startup_exec_command << "\n";
 
 				std::cout << "echo (" << startup_print_string << ")\n";
-                std::cout << "cmd /k prompt " << prompt << " && " << "color " << color << "\n";
-                std::cout << "+===================+\n";
+				std::cout << "cmd /k prompt " << prompt << " && " << "color " << color << "\n";
                 donemenu:std::cout << "1. back to main menu,2. back to genrate menu,3.exit[1,2,3]:";
 				std::cin >> options3;
 				if (options3[0] == '1')
@@ -136,7 +125,7 @@ int main()
 				else
 				{
 					std::cerr << "Invalid option. Please try again.\n";
-                    goto donemenu; // Jump back to the donemenu label to display the donemenu again
+					goto donemenu; // Jump back to the donemenu label to display the donemenu again
 				}
 			}
             else if (options2[0] == '7')
@@ -150,19 +139,16 @@ int main()
             else
 			{
 				std::cerr << "Invalid option. Please try again.\n";
-                system("pause"); // Pause the console to allow the user to read the information
 				goto genmenu; // Jump back to the genmenu label to display the genmenu again
 			}
         }
         else if (options[0] == '2')
         {
-			system("cls"); // Clear the console screen
             std::cout << project_name "(" init_executable_name ")\n";
             std::cout << "version :" version ",update date :" update "[build :" build "]\n";
             std::cout << desc "\n";
             std::cout << "make by :" author "\n";
             std::cout << "license :" license "\n";
-			system("pause"); // Pause the console to allow the user to read the information
             goto menu; // Jump back to the menu label to display the menu again
         }
         else if (options[0] == '3')
@@ -172,7 +158,6 @@ int main()
         else
         {
             std::cerr << "Invalid option. Please try again.\n";
-            system("pause"); // Pause the console to allow the user to read the information
         }
     }
 
