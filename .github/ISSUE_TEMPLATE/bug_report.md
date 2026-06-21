@@ -30,3 +30,7 @@ If applicable, add screenshots to help explain your problem.
 **Additional context**
 
 *Add any other context about the problem here.*
+---
+- [ ] I've read context at #1
+- [ ] I'm just ticking these boxes mindlessly, you can close this directly
+- [ ] I've update to the newest version and the problem still here
